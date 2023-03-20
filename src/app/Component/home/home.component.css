@@ -1,0 +1,45 @@
+.home-container{
+    width: 60%;
+}
+.card{
+    padding: 25px;
+    max-width: 235px;
+    box-shadow: 0 0 25px rgba(24,24,24,.161);
+    border-radius: 25px;
+    background: url(/assets/background/wave-section.svg) bottom no-repeat #fff;
+    background-size: cover;
+    position: relative;
+}
+hr{
+    border-top: 5px solid #f4c838;
+    width: 20%;
+    margin: 15px 0 10px;
+    border-radius: 50px;
+}
+.rb-gradient-text{
+    background: linear-gradient(104deg,#4285f4 4%,#db4437 35%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.heading-color{
+    color: #262c67;
+}
+.bg{
+    background-image: url("https://www.medibuddy.in/assets/background/red-wave.svg");
+}
+.medibuddy{
+    color: #1778f2;
+    margin-left: 5px;
+    height: 32px;
+    line-height: 30px;
+    font-size: 22px;
+    font-weight: 600;
+}
+.medibuddys{
+    color: #f40009;
+    margin-left: 5px;
+    height: 32px;
+    line-height: 30px;
+    font-size: 22px;
+    font-weight: 600;
+}

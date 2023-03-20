@@ -1,0 +1,10 @@
+.blue{
+    box-shadow: none;
+    background-color: #4285f4;
+}
+input{
+    padding: 14px;
+}
+.input-group{
+    bottom: 30px;
+}

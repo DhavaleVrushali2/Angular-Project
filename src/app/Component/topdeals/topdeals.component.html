@@ -1,0 +1,18 @@
+
+
+<owl-carousel-o [options]="customOptions " style="margin-top:20p">
+
+  <ng-container *ngFor="let slide of Data">
+    <ng-template carouselSlide [id]="slide.id">
+      <div class="card rounded-3 " style="width: 18rem; box-shadow: 3px 3px 3px 3px;">
+        <img [src]="slide.productImageSlug" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{slide.description}}</h5>
+          <h6 ><i class="bi bi-currency-rupee"></i>{{slide.discountPrice}}</h6>
+          <h6 style="text-decoration: line-through;"><i class="bi bi-currency-rupee"></i>{{slide.actualPrice}}</h6>
+        </div>
+      </div>
+    </ng-template>
+  </ng-container>
+
+</owl-carousel-o>
